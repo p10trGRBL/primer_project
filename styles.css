@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: url("/WBS Primer Project/gravel.jpeg");
+    color: black;  
+
+    
+}
+header {
+    background-color: white;
+    width: 99%;
+    height: 20vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Righteous', coursive;
+    
+    
+    
+}
+.homeIcon {
+    width: 10%;
+    padding-left: 40px;
+}
+.menuItemsContainer {
+    width: 90%;
+
+}
+.homeIcon img {
+    width: 60px;
+    height: 60px;
+}
+.menuBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    
+}
+.menuItemsList {
+    display: flex;
+    justify-content: space-around;
+}
+.menuItemsList li {
+    list-style: none;
+}
+.menuItemsList li a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.slogan {
+    font-family: 'Indie Flower', cursive;
+    margin: auto;
+    display: table;
+    font-size: 1.5rem;
+    
+}
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: left;
+
+}
+.mainPart {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 69%;
+    padding:20px;
+    height: 1558;
+}
+.bio img {
+    width: 84px;
+    height: 84px;
+    border-style: solid;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.bioSetup {
+    display: flex;
+    justify-content: flex-start;
+}
+#text {
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+.bio {
+    margin-bottom: 15px;
+}
+aside {
+    width: 29%;
+    height: 1558px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+.resources, .bio {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.resources li {
+    list-style: none;
+    padding: 5px;
+}
+.resources li a:hover {
+    color: #FFDE00;
+}
+.mainPart a, aside a {
+    color: black;
+}
+.mainPart a:hover, aside a:hover {
+    color: #FFDE00;
+}
+.lead img {
+    width: 100%;
+}
+
+.adBanner {
+    border-style: solid;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.adBox {
+    border-style: solid;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adBox p {
+    text-align: center;
+}
+.video {
+    margin-top: 30px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.moreArticles {
+    padding: 10px;
+
+}
+
+.moreArticles img {
+  width: 275px;
+  height: 155px;
+}
+@media screen and (max-width: 1200px) {
+    .articles {
+        display:block;
+    }  
+}
+.moreArticles p{
+    padding-top: 15px;
+    text-align: left;
+    width: auto;
+    
+}
+
+footer {
+    width: 99%;
+    height: 25vh;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Righteous', coursive;
+}
+
+#icons {
+    width: 120px;
+    height: 120px;
+}
+.follow, .copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.follow p {
+    padding-top: 50px;
+}
+.footerList {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 20px;
+}
+.footerList li a {
+    text-decoration: none;
+    color: black;
+}
+.footerMenu nav{
+    height: 70px;
+}
+#year {
+    padding-right: 50px;
+}
+nav {
+    background-color: #FFDE00;
+}
+nav li a:hover {
+    border-style: solid;
+    border-color: black;
+    padding: auto;
+}
